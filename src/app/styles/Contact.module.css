@@ -1,0 +1,152 @@
+.contactContainer {
+  background-image: url("/assests/pictures/logo.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.contactSection {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #20b2aa;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #be185d;
+  font-style: italic;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 1rem;
+  color: #8b4513;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.input,
+.textarea {
+  background-color: #ffffff;
+  color: #8b4513;
+  padding: 0.75rem 1rem;
+  border: 2px solid #20b2aa;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: goldenrod;
+  background-color: #fff;
+}
+
+.textarea {
+  height: 8rem;
+  resize: vertical;
+}
+
+.submitWrapper {
+  text-align: center;
+}
+
+.submitButton {
+  background-color: #9a3412;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #20b2aa;
+  transform: scale(1.05);
+}
+
+.emailWrapper {
+  margin-top: rem;
+  text-align: left;
+}
+
+.emailLabel {
+  font-size: 1.2rem;
+  color: #9a3412;
+  margin-bottom: 0.5rem;
+}
+
+.emailLink {
+  color: #5eaf95;
+  text-decoration: none;
+}
+
+.emailLink:hover {
+  text-decoration: underline;
+}
+.socialIcons {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  gap: 1rem;
+}
+
+.iconLink {
+  color: #1c1917;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.iconLink:hover {
+  transform: scale(1.2);
+  color: #0891b2;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  font-size: 1.2rem;
+  color: #8b4513;
+}

@@ -1,0 +1,115 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+    height: 100vh;
+
+  }
+  
+  .section {
+    background-image: url("../../../public/assests/pictures/logo.png");
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+   
+ 
+  }
+  @media (max-width: 768px) {
+    .heroContainer {
+      
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  }
+  
+  .title {
+    font-size: 4rem;
+   color: #14b8a6;
+    font-weight:600;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #be185d;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skillGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skillCard {
+    padding: 1rem;
+    width: calc(33.333% - 1rem);
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .skillCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardContent {
+    background-color: #115e59;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skillName {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .progressBar {
+    background-color: #d1d5db;
+    height: 0.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    position: relative;
+  }
+  
+  .progressFill {
+    background-color: #14b8a6;
+    height: 100%;
+    border-radius: 0.25rem;
+  }
+  
+  .percentage {
+    font-size: 0.875rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: right;
+  }
+  
